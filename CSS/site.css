@@ -1,65 +1,53 @@
-.orange-text /* the dot operator signifies that this is a class definition, must declare class in HTML tag */
-{
-    color: #ff993b;
+.orange-text /* the dot operator signifies that this is a class definition, must declare class in HTML tag */ {
+  color: #ff993b;
 }
 
-.logoImage
-{
-    max-width: 300px;
+.logoImage {
+  max-width: 300px;
 }
 
-header /* no dot operater means CSS targets the element with that tag automatically*/
-{
-    margin-bottom: 60px;
+header /* no dot operater means CSS targets the element with that tag automatically*/ {
+  margin-bottom: 60px;
 }
 
-#heroText /* # operator signifies this is a id defition, associated to elements with that id*/
-{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* assign multiple similar fonts in priority order, so there is redundancy incase declared font is not available*/
-    font-size: 4em;
-    margin: 0;
-    text-transform: uppercase;
-    color: rgb(255, 0, 0);
-    -webkit-text-stroke-width: 1px; /* if it starts with a dash there may be compatibility problems with some browsers*/
-    -webkit-text-stroke-color: yellow;
-    text-shadow: 2px 1px #292929;
-
+#heroText /* # operator signifies this is a id defition, associated to elements with that id*/ {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; /* assign multiple similar fonts in priority order, so there is redundancy incase declared font is not available*/
+  font-size: 4em;
+  margin: 0;
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+  -webkit-text-stroke-width: 1px; /* if it starts with a dash there may be compatibility problems with some browsers*/
+  -webkit-text-stroke-color: yellow;
+  text-shadow: 2px 1px #292929;
 }
 
-#tableHeader /* dark header */
-{
-    background-color: #181818;
-    color: white;
-    font-size: 1.5em;
+#tableHeader /* dark header */ {
+  background-color: #181818;
+  color: white;
+  font-size: 1.5em;
 }
 
-.oddrow /* darkish gray */
-{
-    background-color: dimgray;
-    color: azure;
+.oddrow /* darkish gray */ {
+  background-color: dimgray;
+  color: azure;
 }
-.evenrow /* lighter gray  */
-{
-    background-color: #d3d3d3;
-    font-weight: 500;
+.evenrow /* lighter gray  */ {
+  background-color: #d3d3d3;
+  font-weight: 500;
 }
 
-.heroImage /* limits size */
-{
-    max-width: 200px;
+.heroImage /* limits size */ {
+  max-width: 200px;
 }
 
-table
-{
-    width: 90%; /* 90% of containing element! */
+table {
+  width: 90%; /* 90% of containing element! */
 }
 
-.bannerImage
-{
-    max-width: 50%;
+.bannerImage {
+  max-width: 50%;
 }
 
-#textLink
-{
-    color: yellow;
+#textLink {
+  color: yellow;
 }
